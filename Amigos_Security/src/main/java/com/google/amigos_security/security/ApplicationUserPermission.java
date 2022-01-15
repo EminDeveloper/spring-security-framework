@@ -1,6 +1,5 @@
 package com.google.amigos_security.security;
 
-
 public enum ApplicationUserPermission {
     STUDENT_READ("student:read"),
     STUDENT_WRITE("student:write"),
