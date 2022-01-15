@@ -5,6 +5,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import java.util.List;
 
 public class InMemoryUserDetailsService implements UserDetailsService {
+    
     private final List<UserDetails> users;   //  UserDetailsService manages the list of users in-memory
 
     public InMemoryUserDetailsService(List<UserDetails> users) {
